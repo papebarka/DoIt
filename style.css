@@ -1,0 +1,73 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+/**/
+.layout
+{
+
+}
+
+/**/
+.header
+{
+    margin-bottom: 3em;
+}
+
+/**/
+.main
+{
+    /*min-height: 80em;*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /*align-items: center;*/
+    /*border: 1px solid;*/
+    /*margin: auto;*/
+}
+
+.main .container
+{
+    border: 1px solid;
+    height: 30em;
+    padding: 2em;
+}
+
+.todo-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-container
+{
+    display: inline-flex;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    margin-bottom: 0.75em;
+}
+
+.item-button
+{
+    margin-left: 1em;
+}
+
+.icon
+{
+    color: red;
+    border-color: red;
+    font-size: 1.5em;
+}
+
+ion-icon
+{
+    color: blue;
+}
+/**/
+.footer
+{
+
+}
